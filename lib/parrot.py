@@ -1,2 +1,5 @@
-def parrot():
-    pass
+def parrot(self='Squawk!'):
+   print(self)
+   return self
+
+parrot()
